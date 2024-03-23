@@ -1,0 +1,521 @@
+                                                                @import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Work+Sans:wght@400;600;700;800&display=swap');
+                                                                body {
+                                                                    margin: 0;
+                                                                    padding: 0;
+                                                                    font-family: 'Work Sans', sans-serif;
+                                                                }
+                                                                /* header section */
+                                                                
+                                                                .nav-container {
+                                                                    display: flex;
+                                                                    justify-content: space-around;
+                                                                    align-items: center;
+                                                                    background: #FFF;
+                                                                    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+                                                                    padding: 20px;
+                                                                }
+                                                                
+                                                                .logo-container {
+                                                                    display: flex;
+                                                                    align-items: center;
+                                                                    gap: 10px;
+                                                                    justify-content: center;
+                                                                }
+                                                                
+                                                                .logo-container img {
+                                                                    width: 86.041px;
+                                                                }
+                                                                
+                                                                .design {
+                                                                    color: #FF42A5;
+                                                                }
+                                                                
+                                                                .nav-items-container ul {
+                                                                    display: flex;
+                                                                    justify-content: space-between;
+                                                                    align-items: center;
+                                                                }
+                                                                
+                                                                .nav-items-container li {
+                                                                    text-decoration: none;
+                                                                    list-style: none;
+                                                                    padding: 15px;
+                                                                    cursor: pointer;
+                                                                }
+                                                                
+                                                                .nav-items-container li:last-child {
+                                                                    border-radius: 8px;
+                                                                    background: rgba(11, 2, 35, 0.10);
+                                                                    padding: 15px;
+                                                                }
+                                                                /* banner section */
+                                                                
+                                                                .banner {
+                                                                    display: flex;
+                                                                }
+                                                                
+                                                                .play-game {
+                                                                    margin: 140px;
+                                                                }
+                                                                
+                                                                .play {
+                                                                    color: #0B0223;
+                                                                    text-align: center;
+                                                                    font-size: 48px;
+                                                                    font-weight: 600;
+                                                                    margin-bottom: 20px;
+                                                                }
+                                                                
+                                                                .goat {
+                                                                    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+                                                                    background-clip: text;
+                                                                    -webkit-background-clip: text;
+                                                                    -webkit-text-fill-color: transparent;
+                                                                    text-align: center;
+                                                                    font-size: 95px;
+                                                                    font-weight: 800;
+                                                                    margin-bottom: 20px;
+                                                                }
+                                                                
+                                                                .instant {
+                                                                    color: #534C64;
+                                                                    text-align: center;
+                                                                    font-size: 20px;
+                                                                    font-weight: 500;
+                                                                    margin: 10px;
+                                                                }
+                                                                
+                                                                .btn {
+                                                                    border-radius: 48px;
+                                                                    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+                                                                    display: inline-flex;
+                                                                    padding: 21px 40px;
+                                                                    align-items: flex-start;
+                                                                    gap: 10px;
+                                                                    color: #FFF;
+                                                                    font-size: 20px;
+                                                                    font-weight: 600;
+                                                                }
+                                                                
+                                                                .btn-btn {
+                                                                    display: inline-flex;
+                                                                    padding: 21px 40px;
+                                                                    align-items: flex-start;
+                                                                    gap: 10px;
+                                                                    border-radius: 48px;
+                                                                    background: #4EC5F7;
+                                                                    color: #FFF;
+                                                                    font-size: 20px;
+                                                                    font-weight: 600;
+                                                                }
+                                                                /* gamer section */
+                                                                
+                                                                .gamer {
+                                                                    display: flex;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 90%);
+                                                                    margin-top: -2px;
+                                                                }
+                                                                
+                                                                .game-player {
+                                                                    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+                                                                    background-clip: text;
+                                                                    -webkit-background-clip: text;
+                                                                    -webkit-text-fill-color: transparent;
+                                                                    font-size: 48px;
+                                                                    font-weight: 700;
+                                                                }
+                                                                
+                                                                .btn-btn-btn {
+                                                                    border-radius: 48px;
+                                                                    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+                                                                    display: inline-flex;
+                                                                    padding: 21px 40px;
+                                                                    align-items: flex-end;
+                                                                    font-size: 20px;
+                                                                    font-weight: 600;
+                                                                    color: #FFF;
+                                                                    margin-left: 250px;
+                                                                    gap: 10px;
+                                                                }
+                                                                
+                                                                .instant-purpose {
+                                                                    color: #534C64;
+                                                                    text-align: left;
+                                                                    font-size: 24px;
+                                                                    font-weight: 500;
+                                                                    line-height: 45px;
+                                                                    margin-left: 270px;
+                                                                }
+                                                                
+                                                                .instant-unleash {
+                                                                    color: #534C64;
+                                                                    font-size: 32px;
+                                                                    font-weight: 700;
+                                                                    line-height: 45px;
+                                                                }
+                                                                /* funny-video section */
+                                                                
+                                                                .funny-content {
+                                                                    text-align: center;
+                                                                    margin-top: 80px;
+                                                                }
+                                                                
+                                                                .icon {
+                                                                    position: relative;
+                                                                    bottom: 200px;
+                                                                    text-align: center;
+                                                                    margin-left: 50px;
+                                                                    color: #ba1580;
+                                                                    cursor: pointer;
+                                                                }
+                                                                
+                                                                .icon span {
+                                                                    font-weight: 600;
+                                                                    font-size: 1.9rem;
+                                                                }
+                                                                
+                                                                .icon i {
+                                                                    font-size: 20px;
+                                                                }
+                                                                
+                                                                .icon:hover {
+                                                                    opacity: 0.8;
+                                                                    color: red;
+                                                                }
+                                                                
+                                                                .icon i:hover {
+                                                                    background-color: #8758F1;
+                                                                }
+                                                                
+                                                                .online-game {
+                                                                    color: #0B0223;
+                                                                    text-align: right;
+                                                                    font-size: 48px;
+                                                                    font-weight: 700;
+                                                                }
+                                                                
+                                                                .funny-content-title {
+                                                                    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+                                                                    background-clip: text;
+                                                                    -webkit-background-clip: text;
+                                                                    -webkit-text-fill-color: transparent;
+                                                                    font-size: 48px;
+                                                                    font-weight: 700;
+                                                                }
+                                                                
+                                                                .card {
+                                                                    display: grid;
+                                                                    grid-template-columns: repeat(4, 1fr);
+                                                                    gap: 15px;
+                                                                    justify-content: center;
+                                                                    padding: 15px 0px;
+                                                                    margin: 80px 80px;
+                                                                }
+                                                                
+                                                                .box-record .break {
+                                                                    text-align: center;
+                                                                    margin-top: -50px;
+                                                                }
+                                                                
+                                                                .box-record img {
+                                                                    width: 100%;
+                                                                }
+                                                                /* instant section */
+                                                                
+                                                                .play-instant {
+                                                                    display: flex;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                    background: #FFF;
+                                                                    margin: 40px;
+                                                                    gap: 100px;
+                                                                    padding: 10px 90px;
+                                                                }
+                                                                
+                                                                .instant-instruction {
+                                                                    max-width: 400px;
+                                                                    padding-left: 70px;
+                                                                }
+                                                                
+                                                                .instant-description {
+                                                                    text-align: left;
+                                                                }
+                                                                
+                                                                .instant-change {
+                                                                    text-align: right;
+                                                                    font-size: 3rem;
+                                                                    font-weight: 700;
+                                                                    line-height: 60px;
+                                                                    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+                                                                    background-clip: text;
+                                                                    -webkit-background-clip: text;
+                                                                    -webkit-text-fill-color: transparent;
+                                                                }
+                                                                
+                                                                .download {
+                                                                    color: #0B0223;
+                                                                    font-size: 3rem;
+                                                                    font-weight: 700;
+                                                                    line-height: 60px;
+                                                                }
+                                                                
+                                                                .anniversary {
+                                                                    width: 550px;
+                                                                    padding-left: 70px;
+                                                                    padding-top: 20px;
+                                                                }
+                                                                
+                                                                .anniversary img {
+                                                                    width: 100%;
+                                                                }
+                                                                
+                                                                .talk {
+                                                                    position: relative;
+                                                                    width: 150px;
+                                                                    height: 200px;
+                                                                    bottom: 110px;
+                                                                    right: 50px;
+                                                                }
+                                                                
+                                                                .games {
+                                                                    display: grid;
+                                                                    grid-template-columns: repeat(5, 1fr);
+                                                                    padding: 20px;
+                                                                }
+                                                                
+                                                                .action-games,
+                                                                .arcade-games {
+                                                                    border-radius: 50px;
+                                                                    border: 1px solid rgb(150, 152, 150);
+                                                                    background: #FFF;
+                                                                    width: 60%;
+                                                                    height: 90px;
+                                                                    margin: 5px;
+                                                                    padding: 16px;
+                                                                    display: flex;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                    gap: 2px;
+                                                                    color: #0B0223;
+                                                                    font-size: 10px;
+                                                                    font-weight: 600;
+                                                                }
+                                                                
+                                                                .arcade-games {
+                                                                    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+                                                                    background-clip: text;
+                                                                    -webkit-background-clip: text;
+                                                                    -webkit-text-fill-color: transparent;
+                                                                    font-size: 10px;
+                                                                    font-weight: 600;
+                                                                    border: 1px solid #FF42A5;
+                                                                }
+                                                                
+                                                                footer {
+                                                                    display: flex;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                    height: 550px;
+                                                                    background: #0B0223;
+                                                                    padding: 10px 150px;
+                                                                }
+                                                                
+                                                                .story {
+                                                                    display: flex;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                    gap: 15px;
+                                                                    color: #FFF;
+                                                                    padding-bottom: 5px;
+                                                                    font-size: 1.5rem;
+                                                                    font-weight: 700;
+                                                                }
+                                                                
+                                                                .support-instruction {
+                                                                    text-align: center;
+                                                                    display: grid;
+                                                                    grid-template-columns: repeat(6, 1fr);
+                                                                    padding: 10px;
+                                                                    align-items: flex-start;
+                                                                    gap: 20px;
+                                                                }
+                                                                
+                                                                .support-description {
+                                                                    color: #FFF;
+                                                                }
+                                                                
+                                                                .icon-style {
+                                                                    display: grid;
+                                                                    grid-template-columns: repeat(3, 1fr);
+                                                                    text-align: center;
+                                                                    padding: 20px 120px;
+                                                                    align-items: flex-start;
+                                                                }
+                                                                
+                                                                .privacy {
+                                                                    display: grid;
+                                                                    grid-template-columns: repeat(4, 1fr);
+                                                                    align-items: flex-start;
+                                                                    text-align: center;
+                                                                    padding: 20px 30px;
+                                                                }
+                                                                
+                                                                .privacy p {
+                                                                    color: rgba(255, 255, 255, 0.60);
+                                                                }
+                                                                
+                                                                .btn-btn-btn {
+                                                                    align-items: center;
+                                                                    justify-content: center;
+                                                                }
+                                                                
+                                                                .end {
+                                                                    display: flex;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                    color: rgba(255, 255, 255, 0.60);
+                                                                }
+                                                                /* responsive mobile*/
+                                                                
+                                                                @media screen and (max-width: 576px) {
+                                                                    .nav-container,
+                                                                    .play-game,
+                                                                    .gamer,
+                                                                    .funny-video,
+                                                                    .play-instant {
+                                                                        flex-direction: column;
+                                                                        text-align: center;
+                                                                        padding: 20px;
+                                                                        margin: 50px;
+                                                                    }
+                                                                    .play-game button {
+                                                                        flex-direction: row;
+                                                                    }
+                                                                    .nav-items-container ul {
+                                                                        flex-direction: column;
+                                                                    }
+                                                                    .banner {
+                                                                        padding: 10px 10px;
+                                                                        gap: 20px;
+                                                                        flex-direction: column-reverse;
+                                                                        align-items: center;
+                                                                    }
+                                                                    .picture img {
+                                                                        width: 80%;
+                                                                    }
+                                                                    .button {
+                                                                        display: flex;
+                                                                        gap: 10px;
+                                                                    }
+                                                                    .gamer img {
+                                                                        width: 80%;
+                                                                    }
+                                                                    .card {
+                                                                        grid-template-columns: repeat(1, 1fr);
+                                                                    }
+                                                                    .icon {
+                                                                        margin-left: 20px auto;
+                                                                        padding-top: 30px auto;
+                                                                    }
+                                                                    .play-instant .anniversary {
+                                                                        width: 80%;
+                                                                    }
+                                                                    .games {
+                                                                        display: grid;
+                                                                        grid-template-columns: repeat(3, 1fr);
+                                                                    }
+                                                                    .action-games,
+                                                                    .arcade-games {
+                                                                        width: 50%;
+                                                                    }
+                                                                    .story {
+                                                                        text-align: center;
+                                                                        justify-content: center;
+                                                                    }
+                                                                    .support-instruction {
+                                                                        grid-template-columns: repeat(3, 1fr);
+                                                                    }
+                                                                    .icon-style {
+                                                                        gap: 5px;
+                                                                    }
+                                                                    .privacy {
+                                                                        grid-template-columns: repeat(2, 1fr);
+                                                                    }
+                                                                    .end {
+                                                                        flex-direction: row;
+                                                                    }
+                                                                }
+                                                                /* medium */
+                                                                
+                                                                @media screen and (min-width: 576px) and (max-width: 992px) {
+                                                                    .nav-container,
+                                                                    .play-game,
+                                                                    .gamer,
+                                                                    .funny-video,
+                                                                    .play-instant {
+                                                                        flex-direction: column;
+                                                                        text-align: center;
+                                                                        padding: 20px;
+                                                                        margin: 100px;
+                                                                    }
+                                                                    .play-game button {
+                                                                        flex-direction: row;
+                                                                    }
+                                                                    .nav-items-container ul {
+                                                                        flex-direction: column;
+                                                                    }
+                                                                    .banner {
+                                                                        padding: 10px 10px;
+                                                                        gap: 20px;
+                                                                        flex-direction: column-reverse;
+                                                                        align-items: center;
+                                                                    }
+                                                                    .picture img {
+                                                                        width: 80%;
+                                                                    }
+                                                                    .button {
+                                                                        display: flex;
+                                                                        gap: 10px;
+                                                                    }
+                                                                    .gamer img {
+                                                                        width: 80%;
+                                                                    }
+                                                                    .card {
+                                                                        grid-template-columns: repeat(1, 1fr);
+                                                                    }
+                                                                    .icon {
+                                                                        margin-left: 10px auto;
+                                                                        padding-top: 20px auto;
+                                                                    }
+                                                                    .play-instant .anniversary {
+                                                                        width: 80%;
+                                                                    }
+                                                                    .games {
+                                                                        grid-template-columns: repeat(3, 1fr);
+                                                                        align-items: center;
+                                                                    }
+                                                                    .action-games,
+                                                                    .arcade-games {
+                                                                        width: 80%;
+                                                                        grid-template-columns: repeat(3, 1fr);
+                                                                        align-items: center;
+                                                                    }
+                                                                    .story {
+                                                                        text-align: center;
+                                                                        justify-content: center;
+                                                                    }
+                                                                    .support-instruction {
+                                                                        grid-template-columns: repeat(3, 1fr);
+                                                                    }
+                                                                    .icon-style {
+                                                                        gap: 5px;
+                                                                    }
+                                                                    .privacy {
+                                                                        grid-template-columns: repeat(2, 1fr);
+                                                                    }
+                                                                    .end {
+                                                                        flex-direction: row;
+                                                                    }
+                                                                }
